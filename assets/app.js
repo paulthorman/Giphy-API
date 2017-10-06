@@ -32,7 +32,7 @@ $(document).ready(function() {
 		let type = $(this).data('type');
 
 		// Set query URL to the giphy API address with the specific type
-		let queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + type 
+		let queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + type 
 			+ '&api_key=dc6zaTOxFJmzC&limit=10';
 
 		// Giphy API call
