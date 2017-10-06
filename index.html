@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!--Import Google Carter One Font-->
+	<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+
+	<!-- Materialize compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+	<!-- link to CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Giphy API</title>
+</head>
+<body class="blue-grey darken-2">
+	<header class="blue lighten-2">
+		<h1 class="center-align">You Want Gifs? We Got Gifs!</h1>
+	</header>
+
+	<div class="container">
+		<!-- Location where button are displayed -->
+		<div id="buttonsArea"></div>
+
+		<!-- Form section for adding input and creating button -->
+		<form id="search-form">
+			<div class="input-field inline">
+				<input id="search-input" type="text" class="validate">
+				<label for="search-input">Add Gif Button</label>
+			</div>
+			<!-- Submit button -->
+			<button id="addSearch" class="btn waves-effect waves-light" type="submit" name="action">Submit
+			</button>
+		</form>
+
+		<!-- Location where gif's will be added and displayed -->
+		<div class="row">
+			<div class="col m6" id="searches"></div>
+		</div>	
+	</div>	
+	
+	<!-- Link to JQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<!-- Materialize compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>

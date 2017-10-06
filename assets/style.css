@@ -1,0 +1,29 @@
+body {
+	background-image: url(union-flag.jpg);
+}
+
+header {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px;
+	font-family: 'Carter One';
+	color: white;
+}
+
+.searchButton {
+	margin: 20px 10px 20px 0;
+}
+
+#search-form {
+	float: right;
+	font-size: 14px;
+	width: 200px; 
+}
+
+.input-field.inline {
+	margin-left: 0;
+}
+
+#searches {
+	margin-top: 20px;
+}
