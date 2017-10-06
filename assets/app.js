@@ -6,7 +6,7 @@ $(document).ready(function() {
 	})
 
 	// Hold button types in array
-	var searchArray = ['Rugby', 'Soccer', 'Cricket', 'England', 'Newcastle'];
+	var searchArray = ['Rugby', 'Soccer', 'England', 'Newcastle'];
 
 	// Function to create and add buttons to the page
 	function populateButtons(searchArray, classToAdd, areaToAddTo) {
